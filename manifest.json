@@ -1,8 +1,8 @@
 [
   {
     "kind": "column",
-    "name": "Find Image",
-    "description": "Lookup the right image",
+    "name": "Find next page",
+    "description": "Find the next verse",
     "author": "glide.apps.elbazi@gmail.com>",
     "params": [
       {
@@ -14,15 +14,10 @@
         "name": "level",
         "displayName": "Level",
         "type": "number"
-      },
-      {
-        "name": "reading",
-        "displayName": "Reading",
-        "type": "string"
       }
     ],
     "result": {
-      "type": "string"
+      "type": "number"
     }
   }
 ]
