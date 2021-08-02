@@ -1,0 +1,28 @@
+[
+  {
+    "kind": "column",
+    "name": "Find Image",
+    "description": "Lookup the right image",
+    "author": "glide.apps.elbazi@gmail.com>",
+    "params": [
+      {
+        "name": "ayatID",
+        "displayName": "AyatID",
+        "type": "number"
+      },
+      {
+        "name": "level",
+        "displayName": "Level",
+        "type": "number"
+      },
+      {
+        "name": "reading",
+        "displayName": "Reading",
+        "type": "string"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
