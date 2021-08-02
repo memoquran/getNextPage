@@ -6257,11 +6257,11 @@ window.function = function (ayatID, level) {
   // required input is `undefined`, for example.
   //return str.substring(start, end);
   if(level==1 || level==0){
-    	ayatID++;
+    	ayatID= ayatID + 1;
   }
   else
   {
-      ayatID = ayatID+Math.round(salary[ayatID][5]/levels[level]);      
+      ayatID = ayatID + Math.round(salary[ayatID][5]/levels[level]);      
   }
   
   return ayatID;
